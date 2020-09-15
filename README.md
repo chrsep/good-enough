@@ -1,2 +1,2 @@
 # good-enough
-A good enough typescript based full-stack web project template
+A not-so-simple full-stack web project template that encouraged some "good-enough" web-development practices.
