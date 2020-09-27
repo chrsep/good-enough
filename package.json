@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@prefresh/next": "1.2.1",
+    "@prefresh/next": "1.2.2",
     "next": "9.5.3",
     "next-compose-plugins": "2.2.0",
     "next-optimized-images": "3.0.0-canary.10",
