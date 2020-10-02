@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook",
     "typecheck": "tsc --noEmit && cd cypress && tsc --noEmit",
     "lint:next": "eslint --ext .js,.jsx,.ts,.tsx ./",
-    "lint:cy": "cd cypress && eslint --ext .js,.jsx,.ts,.tsx ./",
+    "lint:cy": "cd cypress && eslint --ext .js,.jsx,.ts,.tsx -c ./.eslintrc.js ./",
     "lint" : "yarn lint:cy && yarn lint:next"
   },
   "dependencies": {
