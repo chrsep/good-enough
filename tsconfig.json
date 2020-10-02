@@ -20,11 +20,11 @@
   },
   "include": [
     "next-env.d.ts",
+    "**/*.js",
     "**/*.ts",
     "**/*.tsx"
   ],
   "exclude": [
-    "node_modules",
-    "cypress"
+    "node_modules"
   ]
 }

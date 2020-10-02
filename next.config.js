@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 // next.config.js
 const withPlugins = require("next-compose-plugins")
 const optimizedImages = require("next-optimized-images")
@@ -25,7 +26,8 @@ module.exports = withPlugins([withPrefresh, optimizedImages], {
 
     // Install webpack aliases:
     const aliases = config.resolve.alias || (config.resolve.alias = {})
-    aliases.react = aliases["react-dom"] = "preact/compat"
+    aliases.react = "preact/compat"
+    aliases["react-dom"] = "preact/compat"
     aliases.preact = path.resolve(__dirname, "node_modules", "preact")
 
     // inject Preact DevTools
