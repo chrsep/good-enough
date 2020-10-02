@@ -15,5 +15,8 @@ module.exports = {
   ],
   rules: {
     "global-require": "off"
+  },
+  env: {
+    "cypress/globals": true
   }
 }
