@@ -16,7 +16,7 @@ jobs:
           cache-name: cache-node-modules
         with:
           # yarn cache files are stored in `~/.yarn` on Linux/macOS
-          path: node-modules
+          path: node_modules
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
@@ -40,7 +40,7 @@ jobs:
           cache-name: cache-node-modules
         with:
           # yarn cache files are stored in `~/.yarn` on Linux/macOS
-          path: node-modules
+          path: node_modules
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
