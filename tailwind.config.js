@@ -1,9 +1,9 @@
 module.exports = {
+  purge: ["**/*.tsx"],
   future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
-  purge: [],
   theme: {
     extend: {},
   },
