@@ -25,7 +25,7 @@
     "react-dom": "github:preact-compat/react-dom#1.0.0",
     "react-refresh": "0.8.3",
     "react-ssr-prepass": "npm:preact-ssr-prepass@1.1.2",
-    "tailwindcss": "1.8.13"
+    "tailwindcss": "1.9.3"
   },
   "devDependencies": {
     "@babel/core": "7.12.3",
